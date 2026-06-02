@@ -1,0 +1,576 @@
+{
+  "common": {
+    "siteName": "CompareAE",
+    "exploreProviders": "Explore providers",
+    "visitOfficialSite": "Visit official website",
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "startDiscovery": "Start discovering"
+  },
+  "header": {
+    "nav": {
+      "car": "Car insurance",
+      "health": "Health insurance",
+      "travel": "Travel insurance",
+      "business": "Business insurance",
+      "resources": "Resources",
+      "guidesLink": "Insurance guides",
+      "faq": "FAQ",
+      "blog": "Blog",
+      "company": "About us",
+      "about": "About CompareAE",
+      "trust": "Trust & transparency",
+      "contact": "Contact us"
+    },
+    "cta": "Start discovering",
+    "topbar": "An independent insurance-provider discovery platform",
+    "country": "United Arab Emirates",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mobileNavLabel": "Mobile main menu"
+  },
+  "hero": {
+    "titleLine1": "Discover digital",
+    "titleLine2": "insurance providers in the UAE",
+    "subtitle": "Get to know licensed insurance providers and their coverage features with independent, clear information that helps you make your decision.",
+    "badgeIndependent": "Independent information",
+    "badgeLicensed": "Licensed companies",
+    "badgeFree": "Free service",
+    "platformInfo": "An independent, transparent discovery platform",
+    "panelTitle": "Discover by insurance type",
+    "panelSubtitle": "Choose an insurance type to learn about providers and coverage",
+    "typeCar": "Car insurance",
+    "typeHealth": "Health insurance",
+    "typeTravel": "Travel insurance",
+    "typeBusiness": "Business insurance",
+    "privacyNote": "We don't ask for personal data — informational only"
+  },
+  "categories": {
+    "heading": "Insurance for every need",
+    "subheading": "Choose the insurance type you need and discover licensed providers",
+    "cta": "Explore",
+    "items": {
+      "car": {
+        "title": "Car insurance",
+        "description": "Learn about car insurance coverage types: comprehensive and third-party."
+      },
+      "health": {
+        "title": "Health insurance",
+        "description": "Individual and family health plans from licensed companies."
+      },
+      "travel": {
+        "title": "Travel insurance",
+        "description": "Comprehensive travel cover for domestic and international trips."
+      },
+      "business": {
+        "title": "Business insurance",
+        "description": "Integrated insurance solutions for companies and institutions."
+      }
+    }
+  },
+  "howItWorks": {
+    "heading": "How does the platform work?",
+    "subheading": "Three simple steps to discover insurance providers in the UAE",
+    "step1Title": "Choose an insurance type",
+    "step1Desc": "Browse the insurance types available in the UAE and learn what suits your needs.",
+    "step2Title": "Get to know the providers",
+    "step2Desc": "Explore licensed insurance providers and their coverage features with clear, independent information.",
+    "step3Title": "Visit the official website",
+    "step3Desc": "Go to the licensed provider's website to complete any step directly with them."
+  },
+  "why": {
+    "heading": "Independent and transparent discovery",
+    "intro": "We don't sell insurance — we provide independent information to help you discover licensed providers.",
+    "benefits": [
+      "Comprehensive information about licensed providers",
+      "Clear and independent content",
+      "Completely free service",
+      "Local support",
+      "No collection of your personal data",
+      "No hidden fees or obligations"
+    ],
+    "stat1Value": "20+",
+    "stat1Label": "Insurance companies",
+    "stat1Sub": "licensed in the UAE",
+    "stat2Value": "100%",
+    "stat2Label": "Independence",
+    "stat2Sub": "fully editorial",
+    "stat3Value": "Free",
+    "stat3Label": "Informational service",
+    "stat3Sub": "no fees",
+    "stat4Value": "Transparent",
+    "stat4Label": "Independent content",
+    "stat4Sub": "no bias"
+  },
+  "faq": {
+    "heading": "Frequently asked questions",
+    "subheading": "Answers to the most common questions about our services",
+    "items": [
+      {
+        "question": "What is CompareAE?",
+        "answer": "CompareAE is an independent informational discovery platform that helps you learn about licensed insurance providers in the UAE and their coverage features. We are not an insurance company, broker, or financial advisor."
+      },
+      {
+        "question": "Is the service free?",
+        "answer": "Yes, the service is completely free. There are no hidden fees and no obligations."
+      },
+      {
+        "question": "How does CompareAE earn money?",
+        "answer": "We may earn a referral commission when you visit a provider's website through our links. This does not affect the independence of our informational content or how providers are listed."
+      },
+      {
+        "question": "Do you collect my personal data?",
+        "answer": "No. We are an informational platform that does not collect your personal data or request insurance information. Any data you enter is submitted directly on the licensed provider's website."
+      },
+      {
+        "question": "How many providers do you feature?",
+        "answer": "We feature information about licensed insurance providers in the UAE, and we continuously expand the list with independent content."
+      },
+      {
+        "question": "Can I buy insurance through the platform?",
+        "answer": "No. We are an informational platform only. When you choose a provider, we direct you to their official website to complete any step directly with them."
+      },
+      {
+        "question": "What insurance types do you cover?",
+        "answer": "We provide information about car, health, travel, home, life, and business insurance."
+      },
+      {
+        "question": "Do you recommend or advise a specific company?",
+        "answer": "No. We don't rank providers by preference, give personal recommendations, or provide pricing. We only provide independent information so you can decide for yourself."
+      }
+    ]
+  },
+  "trust": {
+    "badge": "Independent and transparent platform",
+    "heading": "Why CompareAE?",
+    "subheading": "An independent informational discovery platform that helps you learn about licensed insurance providers",
+    "card1Title": "Independent platform",
+    "card1Desc": "We are not an insurance company or broker. We provide independent information only to help you explore.",
+    "card2Title": "Full transparency",
+    "card2Desc": "We present provider information transparently, without bias or preferential ranking.",
+    "card3Title": "Licensed companies",
+    "card3Desc": "We feature information about providers licensed in the UAE only.",
+    "ctaButton": "Learn more about transparency and trust",
+    "disclaimerLabel": "Disclaimer:",
+    "disclaimerText": "CompareAE is an independent informational discovery platform, not an insurance company, broker, or financial advisor."
+  },
+  "guides": {
+    "heading": "Educational guides and articles",
+    "subheading": "Independent editorial content that helps you understand the world of insurance",
+    "allButton": "All guides",
+    "readMore": "Read more",
+    "disclaimer": "Editorial content is fully independent and not influenced by commercial partnerships.",
+    "item1Title": "A complete guide to car insurance in the UAE",
+    "item1Desc": "Everything you need to know about car insurance types and available coverage.",
+    "item1Category": "Car insurance",
+    "item1ReadTime": "10 min",
+    "item2Title": "How to choose the right health insurance for your family",
+    "item2Desc": "Educational information about health insurance plans and what to consider.",
+    "item2Category": "Health insurance",
+    "item2ReadTime": "8 min",
+    "item3Title": "The importance of travel insurance before your next trip",
+    "item3Desc": "Learn about the essential coverage that travel insurance should include.",
+    "item3Category": "Travel insurance",
+    "item3ReadTime": "6 min"
+  },
+  "cta": {
+    "heading": "Discover insurance providers in the UAE",
+    "subheading": "Learn about licensed providers and their coverage features with independent, clear information",
+    "exploreButton": "Explore providers",
+    "talkButton": "Talk to our team",
+    "tagline": "Free • Independent • Informational"
+  },
+  "footer": {
+    "tagline": "An independent informational insurance discovery platform in the UAE. We help you discover licensed insurance providers and their coverage features.",
+    "insuranceTypesTitle": "Insurance types",
+    "importantLinksTitle": "Important links",
+    "contactTitle": "Contact us",
+    "car": "Car insurance",
+    "health": "Health insurance",
+    "travel": "Travel insurance",
+    "business": "Business insurance",
+    "about": "About us",
+    "trust": "Trust & transparency",
+    "faq": "FAQ",
+    "resources": "Resources",
+    "contact": "Contact us",
+    "privacy": "Privacy policy",
+    "terms": "Terms & conditions",
+    "disclaimer": "Disclaimer",
+    "disclaimerLabel": "Disclaimer:",
+    "disclaimerText": "CompareAE is an independent informational discovery platform, not an insurance company, broker, or financial advisor. CompareAE may earn commissions from some partners. All information shown is for informational purposes only and does not constitute financial advice.",
+    "rights": "All rights reserved © CompareAE 2025"
+  },
+  "providersPage": {
+    "badge": "Independent informational directory",
+    "heading": "Licensed insurance providers in the UAE",
+    "intro": "Get to know insurance providers and their coverage features, then head to the provider's official website to complete any step directly with them. We don't display prices or rank providers."
+  },
+  "providerCards": {
+    "visitButton": "Visit official website",
+    "disclaimerLabel": "Independent informational platform.",
+    "disclaimerText": "CompareAE is not an insurance company or broker. We don't display prices, collect customer data, or rank providers by preference. Final coverage and prices are determined directly by the licensed provider. We may earn a referral commission when you visit a partner's website."
+  },
+  "carInsurance": {
+    "badge": "Car insurance",
+    "heroTitle": "Guide to car insurance in the UAE",
+    "heroSubtitle": "Learn about car insurance coverage types and licensed insurance providers.",
+    "exploreButton": "Explore providers",
+    "providersHeading": "Car insurance providers in the UAE",
+    "providersSub": "Get to know the providers that offer car insurance, then head to the official website to complete any step directly with them.",
+    "coverageHeading": "What does car insurance cover?",
+    "coverageSub": "Discover the different coverage options available for your car in the UAE",
+    "features": [
+      "Comprehensive cover against all risks",
+      "Third-party only insurance",
+      "Personal accident cover",
+      "Roadside assistance",
+      "Car replacement",
+      "Natural disaster cover"
+    ],
+    "typesHeading": "Types of car insurance",
+    "comprehensiveTitle": "Comprehensive insurance",
+    "comprehensiveDesc": "Provides the highest level of protection for your car, covering damage from accidents, theft, fire, and natural disasters, in addition to third-party damage.",
+    "comprehensiveBullets": ["Full cover for your car", "Third-party damage cover", "Theft and fire"],
+    "thirdPartyTitle": "Third-party insurance",
+    "thirdPartyDesc": "Covers only the damage you cause to others or their property. It is the legal minimum required in the UAE.",
+    "thirdPartyBullets": ["Lowest cost", "Meets legal requirements", "Suitable for older cars"]
+  },
+  "healthInsurance": {
+    "badge": "Health insurance",
+    "heroTitle": "Guide to health insurance in the UAE",
+    "heroSubtitle": "Learn about health insurance plans for you and your family from licensed providers.",
+    "exploreButton": "Explore providers",
+    "providersHeading": "Health insurance providers in the UAE",
+    "providersSub": "Get to know the providers that offer health insurance, then head to the official website to complete any step directly with them.",
+    "plansHeading": "Types of health insurance plans",
+    "plansSub": "Choose the plan that suits your needs",
+    "plan1Title": "Individual plan",
+    "plan1Desc": "Ideal for individuals looking for personal health coverage.",
+    "plan1Features": ["Comprehensive medical cover", "Wide hospital network", "24/7 emergency services"],
+    "plan2Title": "Family plan",
+    "plan2Desc": "Provides cover for all family members at an affordable price.",
+    "plan2Features": ["Cover for all family members", "Maternity care", "Children's cover"],
+    "plan3Title": "Maternity plan",
+    "plan3Desc": "Specialized cover for pregnancy, childbirth, and newborn care.",
+    "plan3Features": ["Pregnancy follow-up", "Childbirth cover", "Newborn care"],
+    "coverageHeading": "What does health insurance cover?",
+    "features": [
+      "In-hospital treatment cover",
+      "Tests and lab work",
+      "Medication and prescriptions",
+      "Maternity and childbirth care",
+      "Dental and optical",
+      "Physiotherapy"
+    ]
+  },
+  "travelInsurance": {
+    "badge": "Travel insurance",
+    "heroTitle": "Travel safely with travel insurance",
+    "heroSubtitle": "Protect your trip from medical emergencies, trip cancellation, and lost luggage.",
+    "exploreButton": "Explore providers",
+    "providersHeading": "Travel insurance providers in the UAE",
+    "providersSub": "Get to know the providers that offer travel insurance, then head to the official website to complete any step directly with them.",
+    "tripTypesHeading": "Insurance for every type of trip",
+    "tripTypesSub": "Whatever your destination, we offer the right coverage",
+    "trip1Title": "Business trips",
+    "trip1Desc": "Comprehensive cover for business trips with protection for electronic equipment and documents.",
+    "trip2Title": "Leisure trips",
+    "trip2Desc": "Enjoy your holiday with peace of mind and full cover for any emergency.",
+    "trip3Title": "Honeymoon",
+    "trip3Desc": "Special cover for newlyweds with extra benefits for honeymoon trips.",
+    "coverageHeading": "What does travel insurance cover?",
+    "features": [
+      "Medical emergency cover",
+      "Trip cancellation or delay",
+      "Lost or delayed luggage",
+      "Personal liability cover",
+      "Emergency medical evacuation",
+      "Round-the-clock assistance"
+    ]
+  },
+  "businessInsurance": {
+    "badge": "Business insurance",
+    "heroTitle": "Integrated insurance solutions for your business",
+    "heroSubtitle": "Protect your employees, assets, and business with comprehensive, tailored insurance coverage.",
+    "contactButton": "Contact us",
+    "providersHeading": "Business insurance providers in the UAE",
+    "providersSub": "Get to know the providers that offer business insurance, then head to the official website to complete any step directly with them.",
+    "typesHeading": "Solutions for every company size",
+    "typesSub": "We offer suitable coverage for your company's needs, whatever its size",
+    "type1Title": "Small businesses",
+    "type1Desc": "Flexible insurance solutions suited to startups and small companies.",
+    "type1Features": ["Team health insurance", "Property insurance", "Liability cover"],
+    "type2Title": "Mid-sized companies",
+    "type2Desc": "Comprehensive cover for growing companies with evolving needs.",
+    "type2Features": ["Multiple health plans", "Equipment insurance", "Employee travel insurance"],
+    "type3Title": "Large enterprises",
+    "type3Desc": "Tailored solutions for large enterprises with specialized support.",
+    "type3Features": ["Tailored solutions", "Dedicated account manager", "Detailed reports"],
+    "coverageHeading": "Types of business insurance",
+    "features": [
+      "Employee health insurance",
+      "Professional liability insurance",
+      "Property and equipment insurance",
+      "Business interruption insurance",
+      "Theft and fire insurance",
+      "Commercial vehicle insurance"
+    ],
+    "ctaHeading": "Discover business insurance providers in the UAE",
+    "ctaSub": "Explore licensed providers offering business insurance solutions, and head to the provider's website directly.",
+    "ctaButton": "Explore providers"
+  },
+  "about": {
+    "heroTitle": "About CompareAE",
+    "heroSubtitle": "An independent discovery platform for insurance providers in the UAE",
+    "missionHeading": "Our mission",
+    "missionP1": "We help users in the UAE discover licensed insurance providers. That's why we built CompareAE as an independent, transparent informational discovery platform that helps UAE residents make informed decisions.",
+    "missionP2": "We don't sell insurance and we are not brokers. We provide independent information about licensed providers to help you make your own decision.",
+    "value1": "Independence",
+    "value2": "Transparency",
+    "value3": "Accuracy",
+    "value4": "Quality",
+    "valuesHeading": "Our values",
+    "editorialTitle": "Editorial neutrality",
+    "editorialDesc": "We don't favor any provider over another or give recommendations. We present information with full transparency.",
+    "noDataTitle": "No data collection",
+    "noDataDesc": "We are an informational platform that does not collect your personal data or request insurance information.",
+    "supportTitle": "Customer service",
+    "supportDesc": "A local support team is available to help with any inquiry.",
+    "disclaimerLabel": "Disclaimer:",
+    "disclaimerText": "CompareAE is an independent informational discovery platform, not an insurance company, broker, or financial advisor."
+  },
+  "contact": {
+    "heroTitle": "Contact us",
+    "heroSubtitle": "We're here to help. Reach out to us anytime.",
+    "infoHeading": "Contact information",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "addressLabel": "Address",
+    "address": "Dubai, United Arab Emirates",
+    "hoursLabel": "Working hours",
+    "hours": "Sunday – Thursday: 9 AM – 6 PM",
+    "disclaimerLabel": "Disclaimer:",
+    "disclaimerText": "CompareAE is an independent informational discovery platform, not an insurance company, broker, or financial advisor."
+  },
+  "contactForm": {
+    "errName": "Name is required and must be at least 2 characters",
+    "errEmail": "Please enter a valid email address",
+    "errSubject": "Subject is required and must be at least 3 characters",
+    "errMessage": "Message is required and must be at least 10 characters",
+    "successTitle": "Your message has been sent",
+    "successText": "Thank you for reaching out. We'll get back to you as soon as possible.",
+    "title": "Send us a message",
+    "nameLabel": "Full name",
+    "namePlaceholder": "Enter your name",
+    "emailLabel": "Email",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Message subject",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message here...",
+    "submitting": "Sending...",
+    "submit": "Send message"
+  },
+  "disclaimer": {
+    "heroTitle": "Disclaimer",
+    "heroSubtitle": "Important information about the nature of our services",
+    "mainTitle": "Main disclaimer",
+    "mainText": "CompareAE is an independent informational discovery platform, not an insurance company, broker, or financial advisor.",
+    "s1Title": "Nature of the service",
+    "s1Text": "CompareAE provides an informational platform to learn about licensed insurance providers in the United Arab Emirates. We don't display prices, collect customer data, sell insurance, or provide financial or insurance advice.",
+    "s2Title": "Accuracy of information",
+    "s2Text": "Although we strive to provide accurate and up-to-date information, we don't guarantee the accuracy, completeness, or suitability of the information shown. Coverage and information are finalized directly by the licensed provider.",
+    "s3Title": "Not financial advice",
+    "s3Text": "The content provided on this platform is for informational purposes only and does not in any way constitute financial, insurance, or legal advice. We strongly recommend consulting a qualified financial or insurance advisor before making any insurance-related decisions.",
+    "s4Title": "Commercial relationships",
+    "s4Text": "CompareAE may earn commissions from some insurance companies listed on the platform when users visit the provider's website through our links. This does not affect the independence of our informational content or how providers are listed. We maintain editorial independence and do not favor any provider over another due to commercial relationships.",
+    "s5Title": "User responsibility",
+    "s5Text": "The user is responsible for verifying all offer and coverage details directly with insurance companies before completing any purchase. CompareAE is not responsible for any losses or damages resulting from reliance on the information shown on the platform.",
+    "s6Title": "Third-party links",
+    "s6Text": "The platform may contain links to external websites. We are not responsible for the content or privacy practices of those websites.",
+    "s7Title": "Updates",
+    "s7Text": "We reserve the right to amend this disclaimer at any time. We recommend reviewing this page periodically for any changes.",
+    "contactPrefix": "For any questions about this disclaimer, please contact us at:"
+  },
+  "faqPage": {
+    "heroTitle": "Frequently asked questions",
+    "heroSubtitle": "Answers to the most common questions about CompareAE's services"
+  },
+  "guidesPage": {
+    "heroTitle": "Educational guides and articles",
+    "heroSubtitle": "Independent editorial content that helps you understand the world of insurance and make informed decisions",
+    "readMore": "Read more",
+    "disclaimerLabel": "Note:",
+    "disclaimerText": "Editorial content is fully independent and not influenced by commercial partnerships. We strive to provide accurate, up-to-date information, but we always recommend verifying details directly with insurance companies.",
+    "items": [
+      { "title": "A complete guide to car insurance in the UAE", "description": "Everything you need to know about car insurance types, available coverage, and how to choose between them.", "category": "Car insurance", "readTime": "10 min" },
+      { "title": "How to choose the right health insurance for your family", "description": "Educational information about health insurance plans and what to consider when choosing.", "category": "Health insurance", "readTime": "8 min" },
+      { "title": "The importance of travel insurance before your next trip", "description": "Learn about the essential coverage travel insurance should include and why you need it.", "category": "Travel insurance", "readTime": "6 min" },
+      { "title": "Business insurance: a guide for business owners", "description": "Everything entrepreneurs and business owners need to know about protecting their business.", "category": "Business insurance", "readTime": "12 min" },
+      { "title": "How to reduce the cost of your car insurance", "description": "Smart tips to save money on your car insurance without sacrificing coverage quality.", "category": "Car insurance", "readTime": "5 min" },
+      { "title": "Understanding health insurance policy terms", "description": "A simple explanation of the common terms and conditions in health insurance policies.", "category": "Health insurance", "readTime": "7 min" }
+    ]
+  },
+  "terms": {
+    "heroTitle": "Terms & conditions",
+    "lastUpdated": "Last updated: January 2025",
+    "s1Title": "1. Acceptance of terms",
+    "s1Text": "By using the CompareAE platform, you agree to be bound by these terms and conditions. If you do not agree to any of these terms, please do not use the platform.",
+    "s2Title": "2. Description of the service",
+    "s2Text": "CompareAE is an independent informational discovery platform that helps users learn about licensed insurance providers in the UAE. We are not an insurance company, insurance broker, or financial advisor.",
+    "s3Title": "3. Accuracy of information",
+    "s3Text": "We strive to provide accurate and up-to-date information, but we don't guarantee the accuracy or completeness of the information shown. Coverage and information may change and are subject to the licensed providers' terms, and we don't display prices.",
+    "s4Title": "4. User responsibility",
+    "s4Intro": "You are responsible for:",
+    "s4Bullets": ["Providing correct and accurate information", "Verifying offer details directly with insurance companies", "Making informed decisions based on your needs", "Keeping your account data confidential"],
+    "s5Title": "5. Disclaimer",
+    "s5Text": "The information provided on the platform is for informational purposes only and does not constitute insurance or financial advice. We recommend consulting specialists before making any insurance decisions.",
+    "s6Title": "6. Intellectual property",
+    "s6Text": "All content, designs, and logos on the platform are the intellectual property of CompareAE and protected under intellectual property laws.",
+    "s7Title": "7. Amendments",
+    "s7Text": "We reserve the right to amend these terms at any time. Amendments will be posted on this page with an updated \"Last updated\" date.",
+    "s8Title": "8. Governing law",
+    "s8Text": "These terms are governed by and interpreted in accordance with the laws of the United Arab Emirates.",
+    "s9Title": "9. Contact",
+    "s9Text": "For any questions about these terms, please contact us at:"
+  },
+  "privacy": {
+    "heroTitle": "Privacy policy",
+    "lastUpdated": "Last updated: January 2025",
+    "s1Title": "1. Introduction",
+    "s1Text": "At CompareAE we are committed to protecting your privacy. This policy explains how we collect, use, and protect your personal information when you use our platform.",
+    "s2Title": "2. Information we collect",
+    "s2Intro": "CompareAE is an informational platform that does not collect personal insurance data (such as vehicle data) and does not request it. We may only collect:",
+    "s2Bullets": ["Usage and browsing data (anonymized statistics)", "Basic device information", "Contact form data when you message us (name and email only)"],
+    "s3Title": "3. How we use your information",
+    "s3Intro": "We use your information for the following purposes:",
+    "s3Bullets": ["Operating the site and displaying informational content", "Improving the user experience", "Responding to your messages via the contact form", "Complying with legal requirements"],
+    "s4Title": "4. Sharing information",
+    "s4Text": "We don't sell or share your personal information with third parties except when necessary to provide the requested service or as required by law. We may share anonymized data for analytics purposes.",
+    "s5Title": "5. Data security",
+    "s5Text": "We use the latest encryption and security technologies to protect your data. However, the security of information transmitted over the internet cannot be fully guaranteed.",
+    "s6Title": "6. Your rights",
+    "s6Intro": "You have the right to:",
+    "s6Bullets": ["Access your personal data", "Correct inaccurate data", "Request deletion of your data", "Object to the processing of your data"],
+    "s7Title": "7. Contact us",
+    "s7Text": "For any questions about this privacy policy, please contact us at:"
+  },
+  "trustPage": {
+    "heroTitle": "Trust & transparency",
+    "heroSubtitle": "We are committed to the highest standards of transparency and independence in all our operations",
+    "mainDisclaimerTitle": "Main disclaimer",
+    "mainDisclaimerText": "CompareAE is an independent informational discovery platform, not an insurance company, broker, or financial advisor.",
+    "pillarsHeading": "Our pillars of trust",
+    "p1Title": "How we present information",
+    "p1Text": "We present information about licensed insurance providers in the UAE independently. We don't rank providers by preference or recommend any provider over another.",
+    "p1Bullets": ["We present information as provided by the companies", "We don't display prices; they are set directly by the provider", "The final decision rests with the user"],
+    "p2Title": "Editorial independence",
+    "p2Text": "The editorial content on our site is fully independent of commercial partnerships. Guides and educational articles are written to help users understand insurance, not to promote any company.",
+    "p2Bullets": ["Neutral educational content", "Partnerships don't influence content", "Periodic accuracy reviews"],
+    "p3Title": "Partnership disclosure",
+    "p3Text": "We are fully transparent about our commercial relationships. We may earn commissions from some insurance companies when a purchase is completed through our platform.",
+    "p3NoteLabel": "Important:",
+    "p3NoteText": "CompareAE may earn commissions from some partners. This does not affect our editorial content or informational methodology.",
+    "p4Title": "No data collection",
+    "p4Text": "We are an informational platform that does not collect your personal data or request insurance information. Any data you enter is submitted directly on the licensed provider's website.",
+    "p4Bullets": ["We don't request personal data", "We don't pass your data to any party", "Commitment to privacy laws"],
+    "notHeading": "What we are not",
+    "notIntro": "For full clarity, we confirm that CompareAE is not:",
+    "not1": "An insurance company",
+    "not2": "An insurance broker",
+    "not3": "A financial advisor",
+    "not4": "An insurance advisor",
+    "notConclusionPre": "We are an independent informational discovery platform",
+    "notConclusionPost": "that helps users learn about licensed insurance providers in the UAE.",
+    "moreInfo": "For more information",
+    "linkDisclaimer": "Disclaimer",
+    "linkPrivacy": "Privacy policy",
+    "linkTerms": "Terms & conditions"
+  },
+  "meta": {
+    "home": {
+      "title": "CompareAE - Independent Insurance Discovery Platform in the UAE",
+      "description": "An independent informational discovery platform for insurance providers in the UAE. Explore car, health, and travel insurance options from licensed companies.",
+      "ogTitle": "CompareAE - Independent Insurance Discovery Platform in the UAE",
+      "ogDescription": "An independent informational discovery platform for insurance providers in the UAE."
+    },
+    "car": {
+      "title": "UAE Car Insurance Guide | CompareAE",
+      "description": "Learn about car insurance types in the UAE: comprehensive and third-party coverage, and licensed insurance providers. Independent informational discovery platform.",
+      "ogTitle": "UAE Car Insurance Guide - CompareAE",
+      "ogDescription": "Learn about car insurance types and licensed providers in the UAE."
+    },
+    "health": {
+      "title": "UAE Health Insurance Guide | CompareAE",
+      "description": "Learn about individual and family health insurance plans and licensed providers in the UAE. Independent informational discovery platform.",
+      "ogTitle": "UAE Health Insurance Guide - CompareAE",
+      "ogDescription": "Learn about health insurance plans and licensed providers in the UAE."
+    },
+    "travel": {
+      "title": "UAE Travel Insurance Guide | CompareAE",
+      "description": "Learn about travel insurance and licensed providers in the UAE: medical emergency coverage, trip cancellation, and baggage loss.",
+      "ogTitle": "UAE Travel Insurance Guide - CompareAE",
+      "ogDescription": "Learn about travel insurance and licensed providers in the UAE."
+    },
+    "business": {
+      "title": "UAE Business Insurance Guide | CompareAE",
+      "description": "Learn about business insurance solutions and licensed providers in the UAE: employee health insurance, property insurance, and professional liability.",
+      "ogTitle": "UAE Business Insurance Guide - CompareAE",
+      "ogDescription": "Learn about business insurance solutions and licensed providers in the UAE."
+    },
+    "providers": {
+      "title": "Licensed UAE Insurance Providers Directory | CompareAE",
+      "description": "Learn about licensed digital insurance providers in the UAE and their coverage benefits. Independent informational platform — no prices, no data collection.",
+      "ogTitle": "UAE Insurance Providers Directory - CompareAE",
+      "ogDescription": "Learn about licensed digital insurance providers in the UAE and their coverage benefits."
+    },
+    "about": {
+      "title": "About CompareAE - Independent Insurance Discovery Platform | CompareAE",
+      "description": "Learn about CompareAE, an independent informational discovery platform for insurance providers in the UAE. We are not an insurance company, broker, or financial advisor.",
+      "ogTitle": "About CompareAE - Independent Insurance Discovery Platform",
+      "ogDescription": "Learn about CompareAE, an independent informational discovery platform for insurance providers in the UAE."
+    },
+    "contact": {
+      "title": "Contact Us - Get in Touch with the CompareAE Team",
+      "description": "Contact the CompareAE team for inquiries and assistance. We are here to help with any questions about insurance providers in the UAE.",
+      "ogTitle": "Contact Us - CompareAE",
+      "ogDescription": "Contact the CompareAE team for inquiries and assistance."
+    },
+    "faq": {
+      "title": "FAQ - Answers to Your Questions | CompareAE",
+      "description": "Answers to frequently asked questions about CompareAE's insurance discovery services in the UAE. Learn how the platform works and what services we offer.",
+      "ogTitle": "FAQ - CompareAE",
+      "ogDescription": "Answers to frequently asked questions about CompareAE's insurance discovery services."
+    },
+    "guides": {
+      "title": "Insurance Guides & Educational Articles | CompareAE",
+      "description": "Independent editorial content to help you understand the world of insurance and make informed decisions. Comprehensive guides for car, health, and travel insurance.",
+      "ogTitle": "Insurance Guides & Educational Articles - CompareAE",
+      "ogDescription": "Independent editorial content to help you understand insurance and make informed decisions."
+    },
+    "terms": {
+      "title": "Terms & Conditions - Platform Usage Terms | CompareAE",
+      "description": "Read the terms and conditions for using the CompareAE insurance discovery platform in the UAE. We are an independent informational platform, not an insurance company.",
+      "ogTitle": "Terms & Conditions - CompareAE",
+      "ogDescription": "Read the terms and conditions for using CompareAE."
+    },
+    "privacy": {
+      "title": "Privacy Policy - Protecting Your Data | CompareAE",
+      "description": "Read CompareAE's privacy policy. An informational discovery platform that does not collect personal insurance data. We are committed to protecting your privacy.",
+      "ogTitle": "Privacy Policy - CompareAE",
+      "ogDescription": "Read CompareAE's privacy policy and learn how we protect your data."
+    },
+    "trust": {
+      "title": "Trust & Transparency - Our Commitment to Independence | CompareAE",
+      "description": "Discover CompareAE's commitment to transparency and independence. We are an independent informational discovery platform, not an insurance company, broker, or financial advisor.",
+      "ogTitle": "Trust & Transparency - CompareAE",
+      "ogDescription": "Discover CompareAE's commitment to transparency and independence as an informational insurance discovery platform."
+    },
+    "disclaimer": {
+      "title": "Disclaimer - Important Information | CompareAE",
+      "description": "CompareAE disclaimer. We are an independent informational discovery platform, not an insurance company, broker, or financial advisor.",
+      "ogTitle": "Disclaimer - CompareAE",
+      "ogDescription": "Full disclaimer for CompareAE."
+    }
+  }
+}
