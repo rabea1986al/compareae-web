@@ -98,7 +98,7 @@ export function Header() {
           <Link
             href={pathname}
             locale={otherLocale}
-            className="hidden md:flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+            className="hidden lg:flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
             aria-label={`التبديل إلى ${otherLocaleLabel}`}
           >
             <Globe className="h-4 w-4" />
@@ -159,6 +159,17 @@ export function Header() {
                 )}
               </div>
             ))}
+            {/* Language switcher — mobile (the desktop one is hidden below lg) */}
+            <Link
+              href={pathname}
+              locale={otherLocale}
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center gap-2 py-3 border-b border-border/50 font-medium text-foreground hover:text-primary"
+              aria-label={`التبديل إلى ${otherLocaleLabel}`}
+            >
+              <Globe className="h-4 w-4" />
+              <span>{otherLocaleLabel}</span>
+            </Link>
             <Button asChild className="w-full mt-4 bg-primary hover:bg-primary/90 text-primary-foreground">
               <Link href="/providers" onClick={() => setMobileMenuOpen(false)}>
                 {t('cta')}
