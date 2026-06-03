@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next'
+import { guideSlugs } from '@/lib/guides'
 
 const BASE_URL = 'https://compareae.com'
 const locales = ['ar', 'en'] as const
@@ -18,6 +19,12 @@ const pages = [
   { path: '/terms', changeFrequency: 'yearly' as const, priority: 0.3 },
   { path: '/privacy', changeFrequency: 'yearly' as const, priority: 0.3 },
   { path: '/disclaimer', changeFrequency: 'yearly' as const, priority: 0.3 },
+  // Individual educational guide articles (one per slug, both locales)
+  ...guideSlugs.map((slug) => ({
+    path: `/guides/${slug}`,
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  })),
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

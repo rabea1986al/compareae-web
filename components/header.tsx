@@ -6,7 +6,10 @@ import { Link, usePathname } from '@/i18n/navigation'
 import { Menu, X, ChevronDown, Globe } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
-const navItems = [
+type NavChild = { labelKey: string; href: string }
+type NavItem = { labelKey: string; href: string; children?: NavChild[] }
+
+const navItems: NavItem[] = [
   { labelKey: 'car', href: '/car-insurance' },
   { labelKey: 'health', href: '/health-insurance' },
   { labelKey: 'travel', href: '/travel-insurance' },
@@ -17,7 +20,6 @@ const navItems = [
     children: [
       { labelKey: 'guidesLink', href: '/guides' },
       { labelKey: 'faq', href: '/faq' },
-      { labelKey: 'blog', href: '/blog' },
     ],
   },
   {
@@ -29,7 +31,7 @@ const navItems = [
       { labelKey: 'contact', href: '/contact' },
     ],
   },
-] as const
+]
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)

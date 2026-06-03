@@ -1,16 +1,21 @@
-import { FileText, Clock, ArrowLeft } from 'lucide-react'
+import { Clock, ArrowLeft, Car, HeartPulse, Plane, Building2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Link } from '@/i18n/navigation'
-import { useTranslations } from 'next-intl'
+import { useTranslations, useLocale } from 'next-intl'
+import { getAllGuides, type IconKey } from '@/lib/guides'
 
-const guides = [
-  { n: 1, href: '/guides/car-insurance-guide', image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&q=80' },
-  { n: 2, href: '/guides/health-insurance-guide', image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&q=80' },
-  { n: 3, href: '/guides/travel-insurance-guide', image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&q=80' },
-] as const
+const iconMap: Record<IconKey, typeof Car> = {
+  car: Car,
+  health: HeartPulse,
+  travel: Plane,
+  business: Building2,
+}
 
 export function EditorialGuides() {
   const t = useTranslations('guides')
+  const locale = useLocale()
+  const guides = getAllGuides(locale).slice(0, 3)
+
   return (
     <section className="py-16 md:py-24 bg-muted/30">
       <div className="container mx-auto px-4">
@@ -32,49 +37,54 @@ export function EditorialGuides() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
-          {guides.map((guide) => (
-            <article
-              key={guide.n}
-              className="group bg-card rounded-2xl overflow-hidden border border-border hover:shadow-xl transition-all duration-300"
-            >
-              {/* Image */}
-              <div className="relative h-48 overflow-hidden">
-                <img
-                  src={guide.image}
-                  alt={t(`item${guide.n}Title`)}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <div className="absolute top-4 right-4 bg-primary text-primary-foreground text-xs font-medium px-3 py-1 rounded-full">
-                  {t(`item${guide.n}Category`)}
-                </div>
-              </div>
-
-              {/* Content */}
-              <div className="p-6">
-                <h3 className="text-lg font-bold text-card-foreground mb-2 line-clamp-2 group-hover:text-primary transition-colors">
-                  {t(`item${guide.n}Title`)}
-                </h3>
-                <p className="text-sm text-muted-foreground mb-4 line-clamp-2">
-                  {t(`item${guide.n}Desc`)}
-                </p>
-
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2 text-xs text-muted-foreground">
-                    <Clock className="h-4 w-4" />
-                    <span>{t(`item${guide.n}ReadTime`)}</span>
+          {guides.map((guide) => {
+            const Icon = iconMap[guide.iconKey]
+            return (
+              <article
+                key={guide.slug}
+                className="group bg-card rounded-2xl overflow-hidden border border-border hover:shadow-xl transition-all duration-300"
+              >
+                {/* Image */}
+                <Link href={`/guides/${guide.slug}`} className="block relative h-48 overflow-hidden">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={guide.image}
+                    alt={guide.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                  <div className="absolute top-4 right-4 bg-primary text-primary-foreground text-xs font-medium px-3 py-1 rounded-full flex items-center gap-1">
+                    <Icon className="h-3 w-3" />
+                    {guide.category}
                   </div>
-                  <Link
-                    href={guide.href}
-                    className="flex items-center gap-1 text-sm font-medium text-primary hover:underline"
-                  >
-                    {t('readMore')}
-                    <ArrowLeft className="h-4 w-4" />
-                  </Link>
+                </Link>
+
+                {/* Content */}
+                <div className="p-6">
+                  <h3 className="text-lg font-bold text-card-foreground mb-2 line-clamp-2 group-hover:text-primary transition-colors">
+                    <Link href={`/guides/${guide.slug}`}>{guide.title}</Link>
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-4 line-clamp-2">
+                    {guide.excerpt}
+                  </p>
+
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                      <Clock className="h-4 w-4" />
+                      <span>{guide.readTime}</span>
+                    </div>
+                    <Link
+                      href={`/guides/${guide.slug}`}
+                      className="flex items-center gap-1 text-sm font-medium text-primary hover:underline"
+                    >
+                      {t('readMore')}
+                      <ArrowLeft className="h-4 w-4" />
+                    </Link>
+                  </div>
                 </div>
-              </div>
-            </article>
-          ))}
+              </article>
+            )
+          })}
         </div>
 
         {/* Editorial Disclaimer */}
