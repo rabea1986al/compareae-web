@@ -234,7 +234,48 @@
     "comprehensiveBullets": ["Full cover for your car", "Third-party damage cover", "Theft and fire"],
     "thirdPartyTitle": "Third-party insurance",
     "thirdPartyDesc": "Covers only the damage you cause to others or their property. It is the legal minimum required in the UAE.",
-    "thirdPartyBullets": ["Lowest cost", "Meets legal requirements", "Suitable for older cars"]
+    "thirdPartyBullets": ["Lowest cost", "Meets legal requirements", "Suitable for older cars"],
+    "educational": {
+      "introHeading": "What is car insurance?",
+      "introText": "Car insurance is a contract between a vehicle owner and a licensed insurance company, under which the insurer agrees to cover specified losses or damages arising from use of the vehicle. In the UAE, holding a valid car insurance policy is a legal requirement for registering any vehicle on public roads. This system ensures all road users are protected and that adequate coverage exists to compensate for damages in the event of an accident, safeguarding owners, passengers, and third parties alike.",
+      "mandatoryHeading": "Why is car insurance mandatory in the UAE?",
+      "mandatoryText": "UAE regulators require every vehicle owner to hold a valid insurance policy before registering or renewing a vehicle. The core purpose is to protect all parties in the event of an accident: the owner, passengers, and any third parties affected. The legal minimum is third-party liability insurance, though many vehicle owners opt for comprehensive cover for broader protection. Driving an uninsured vehicle is a legal offence that can result in fines and full personal financial liability for any resulting damages.",
+      "coverageHeading": "What does a car insurance policy typically cover?",
+      "coverageText": "Coverage varies between policies depending on the type of insurance and each provider's terms. Under comprehensive insurance, coverage may include: damages you cause to other vehicles, property, or persons; damages to your own vehicle resulting from accidents; and in some cases, damage from theft, fire, or natural disasters under specific conditions. Third-party insurance is limited to covering damages you cause to others — it does not cover your own vehicle. Optional add-ons may include roadside assistance, extended geographic coverage, and a replacement vehicle. Always review the policy with the provider to understand exactly what is included.",
+      "exclusionsHeading": "What may not be covered by your policy?",
+      "exclusionsText": "Reading the exclusions carefully before signing is essential. Common exclusions typically include: damages resulting from driving under the influence of alcohol or controlled substances; normal wear and tear from regular vehicle use; engine damage caused by negligence; using the vehicle for commercial purposes without prior disclosure to the insurer; and damage incurred while participating in car races. Overlooking exclusions can lead to your claim being rejected precisely when you need coverage most.",
+      "whoNeedsHeading": "How do you decide which type of insurance suits you?",
+      "whoNeedsText": "Comprehensive insurance is typically chosen by owners of newer or high-value vehicles, those in high-traffic areas, or anyone who wants full peace of mind. Third-party insurance may be sufficient for owners of older vehicles with lower market value. The right decision depends on a personal assessment: the current market value of your vehicle, how frequently it is used, and whether you could comfortably absorb the full cost of repairs out of pocket without any insurance support.",
+      "termsHeading": "Key terms you should understand",
+      "termsText": "Deductible: the portion you pay out of pocket from the repair cost before the insurer covers the rest — a higher deductible usually means a lower annual premium. No-Claim Bonus (NCB): a discount earned when a policy term ends without any claims being filed. Agency repair: your vehicle is repaired at a manufacturer-authorised service centre using original parts. Liability limit: the maximum amount the insurer will pay to third parties for damages you cause. Exclusion: any damage or circumstance explicitly not covered by the policy.",
+      "reviewHeading": "What to check before choosing a car insurance policy",
+      "reviewText": "Before agreeing to any policy, understand how the deductible affects your out-of-pocket costs in a real accident. Review the list of approved repair centres and ask whether repairs are done at a manufacturer's dealership or an independent workshop. Check geographic coverage — does it extend to neighbouring countries? Ask about the claims process and how quickly the provider responds. A policy with a lower premium is not always the best choice — it may come with broader exclusions that significantly reduce actual coverage when you need it most."
+    },
+    "pageFAQ": {
+      "heading": "Frequently asked questions about car insurance in the UAE",
+      "items": [
+        {
+          "question": "Is comprehensive car insurance mandatory in the UAE?",
+          "answer": "No. The legal minimum requirement is third-party liability insurance for vehicle registration. Comprehensive insurance is optional but provides broader protection, covering damages to your own vehicle in addition to third-party liabilities."
+        },
+        {
+          "question": "What is the difference between agency repair and workshop repair?",
+          "answer": "Agency repair means your vehicle is repaired at a manufacturer-authorised service centre using original spare parts. Workshop repair is done at independent, insurer-approved garages which may be less costly. Some policies offer both options while others are limited to one — check your policy terms directly with your provider."
+        },
+        {
+          "question": "What is a deductible and how does it affect me?",
+          "answer": "A deductible is the amount you pay from your own pocket towards a repair cost when filing a claim. For example, if repairs cost AED 5,000 and your deductible is AED 500, you pay AED 500 and the insurer covers the remaining AED 4,500. A higher deductible generally lowers your annual premium but increases your personal contribution when an accident occurs."
+        },
+        {
+          "question": "Can I add additional drivers to my car insurance policy?",
+          "answer": "Yes, most policies allow adding named drivers. The age and driving record of the added driver may affect policy conditions. Some policies extend cover to any licensed driver while others are restricted to family members — review the terms with your provider for specific details."
+        },
+        {
+          "question": "What happens if my car insurance policy expires without renewal?",
+          "answer": "Driving without a valid insurance policy is a legal offence in the UAE that can result in fines and full personal financial liability in the event of an accident. Contact your provider before the policy expires to ensure continuous coverage without a gap."
+        }
+      ]
+    }
   },
   "healthInsurance": {
     "badge": "Health insurance",
@@ -262,7 +303,48 @@
       "Maternity and childbirth care",
       "Dental and optical",
       "Physiotherapy"
-    ]
+    ],
+    "educational": {
+      "introHeading": "What is health insurance?",
+      "introText": "Health insurance is a contractual arrangement that provides the insured with financial coverage for medical care costs, in exchange for paying a regular premium to a licensed insurance company. It is among the most important personal protections for individuals and families in the UAE, where medical costs are consistently among the highest in the region. Health insurance enables access to quality healthcare without placing the full financial burden on the individual or their family.",
+      "mandatoryHeading": "Health insurance requirements in the UAE",
+      "mandatoryText": "Abu Dhabi mandated employer-provided health insurance for employees and their resident families as early as 2006. Dubai followed with a law requiring mandatory health insurance for all residents, implemented in phases. Employers have a legal obligation to provide compliant health coverage to eligible employees; non-compliance can result in fines. However, the level and scope of coverage varies significantly between policies, making it essential for individuals and businesses to understand what they are actually receiving.",
+      "coverageHeading": "What does health insurance typically cover?",
+      "coverageText": "Coverage varies by plan and provider. Common inclusions in standard and comprehensive policies may include: emergency and urgent care, outpatient visits to general practitioners and specialists, laboratory tests and medical imaging, hospitalisation and surgical procedures within covered limits. Some plans include dental and optical care, preventive medicine visits, and maternity and childbirth cover. Basic plans may be limited to emergency care with lower coverage caps. Always read the specific terms of each plan with the provider before enrolling.",
+      "exclusionsHeading": "What is typically not covered by health insurance?",
+      "exclusionsText": "Common exclusions include: pre-existing conditions that existed before the policy came into effect; certain cosmetic or elective procedures not deemed medically necessary; treatments for addiction or some mental health conditions under basic plans. A waiting period may apply to certain types of coverage such as maternity, meaning claims cannot be made until a specified time has elapsed. Read exclusions carefully and confirm them with the provider before signing.",
+      "whoNeedsHeading": "Who benefits most from comprehensive health cover?",
+      "whoNeedsText": "Families with children or elderly members typically need broader coverage that includes multiple specialist visits and ongoing care. Individuals with chronic health conditions need plans that include their conditions within the coverage scope. Employers required to provide staff coverage need to understand group insurance options. New UAE residents need a plan that fits their family situation and income level, particularly during the gap before employer insurance takes effect.",
+      "termsHeading": "Important health insurance terms to know",
+      "termsText": "Co-payment: the percentage of each medical service cost you pay yourself, for example 20% of a consultation fee. Annual Deductible: a fixed amount you pay in full before the insurer begins covering costs. Network: the list of hospitals and clinics that accept your insurance directly without upfront payment. Annual Coverage Limit: the maximum amount the insurer will pay on your behalf in a given policy year. Pre-authorisation: approval required from the insurer before certain procedures or hospital admissions.",
+      "reviewHeading": "What to check before choosing a health insurance plan",
+      "reviewText": "Start by reviewing the provider network to confirm it includes hospitals and clinics you trust and that are accessible to you. Check the co-payment percentage for each service type — GP visit, specialist, and emergency. Ask specifically about coverage for pre-existing conditions and how they are handled. Review any pre-authorisation requirements before hospital admission. Finally, confirm that the annual coverage cap is realistic given your medical needs. A plan that appears cheaper may carry higher co-payments or a narrower network that costs more in practice."
+    },
+    "pageFAQ": {
+      "heading": "Frequently asked questions about health insurance in the UAE",
+      "items": [
+        {
+          "question": "Is health insurance mandatory for all UAE residents?",
+          "answer": "In Abu Dhabi and Dubai, health insurance is mandatory at varying levels, with the primary obligation falling on employers. Requirements differ by emirate, so it is advisable to check with the relevant authority or your insurance provider to confirm the specific obligations that apply to your situation."
+        },
+        {
+          "question": "What is the difference between in-network and out-of-network treatment?",
+          "answer": "In-network treatment means visiting a hospital or clinic on the insurer's approved list, where the insurer settles payment directly. Out-of-network treatment means paying upfront and seeking reimbursement under the policy's terms — coverage levels may be lower. Always check the network list before booking an appointment."
+        },
+        {
+          "question": "What is a co-payment and how is it calculated?",
+          "answer": "A co-payment is the share of the medical service cost that you pay. For example, if the co-pay is 20% and the consultation costs AED 200, you pay AED 40 and the insurer covers AED 160. Co-payment percentages vary between GP visits, specialist consultations, and emergency care — check the co-payment schedule in your policy."
+        },
+        {
+          "question": "Are dental and optical services always included in health insurance?",
+          "answer": "No, dental and optical coverage is not universal across all health plans. Basic plans often exclude these services or include them with very low limits. Broader plans may include partial or full coverage. Check the detailed coverage schedule in any plan you are considering before enrolling."
+        },
+        {
+          "question": "What happens to my health insurance when I change employers?",
+          "answer": "Employer-sponsored health insurance typically ends when your employment contract terminates. It is advisable to understand your continuity options or secure individual coverage during the transition period to avoid gaps in medical coverage, especially if you are managing an ongoing health condition."
+        }
+      ]
+    }
   },
   "travelInsurance": {
     "badge": "Travel insurance",
@@ -287,7 +369,48 @@
       "Personal liability cover",
       "Emergency medical evacuation",
       "Round-the-clock assistance"
-    ]
+    ],
+    "educational": {
+      "introHeading": "What is travel insurance?",
+      "introText": "Travel insurance is a policy designed to cover unforeseen costs and risks that can arise before or during a trip. It typically includes cover for medical emergencies abroad, unexpected trip cancellation or interruption, lost or delayed baggage, and personal liability. For UAE residents who travel frequently — whether for work, leisure, or family visits — travel insurance provides financial protection against events that could otherwise result in significant out-of-pocket expenses.",
+      "mandatoryHeading": "Why travel insurance matters for UAE residents",
+      "mandatoryText": "UAE residents travel extensively, and healthcare costs in many popular destinations can be extremely high for visitors without local insurance. A medical evacuation from a remote destination or an extended hospital stay abroad can cost tens of thousands of dirhams or more. Some countries also require proof of travel insurance as a visa entry condition. Even when not mandatory, travel insurance protects against trip cancellation losses that are particularly relevant given the non-refundable nature of many airline and hotel bookings.",
+      "coverageHeading": "What does travel insurance typically cover?",
+      "coverageText": "Travel insurance coverage depends on the plan chosen, but commonly includes: emergency medical treatment and hospitalisation abroad; medical evacuation and repatriation to the UAE if required; trip cancellation reimbursement when cancellation is caused by a covered event such as sudden illness or a family emergency; trip interruption cover for early return; compensation for delayed or lost baggage; and personal liability cover in case you cause accidental damage or injury to others during the trip. Business travel plans may additionally cover loss of travel documents and electronic equipment.",
+      "exclusionsHeading": "What is usually not covered by travel insurance?",
+      "exclusionsText": "Most standard travel insurance policies exclude medical treatment for pre-existing conditions unless a specific add-on or waiver is purchased. High-risk activities such as extreme sports, mountaineering, or professional sports events are typically excluded unless the policy specifically includes adventure cover. Cancellation due to personal choice or foreseeable work obligations at the time of booking is generally not covered. Travel to destinations under official government travel warnings may also be excluded. Read the policy exclusions carefully before travelling.",
+      "whoNeedsHeading": "Who benefits most from travel insurance?",
+      "whoNeedsText": "Frequent travellers benefit from annual multi-trip plans that cover all trips within a year rather than purchasing cover per trip. Families travelling with young children or elderly members need emergency medical cover that meets the higher healthcare needs these groups may have. Business travellers need cover that protects business equipment and important documents. Anyone booking non-refundable travel arrangements well in advance benefits from trip cancellation protection, particularly for high-value bookings.",
+      "termsHeading": "Key travel insurance terms to understand",
+      "termsText": "Single-trip policy: covers one specific trip from departure to return. Annual multi-trip policy: covers all trips taken within a 12-month period, typically subject to a maximum duration per trip. Medical evacuation: transport to the nearest adequate medical facility or back to the UAE, covered up to a specified limit. Trip cancellation: reimbursement for pre-paid non-refundable costs when you cancel due to a covered reason. Baggage delay: compensation for essential purchases when checked luggage is delayed beyond a threshold period, typically 12–24 hours.",
+      "reviewHeading": "What to check before buying travel insurance",
+      "reviewText": "Confirm that the medical coverage limit is adequate for your destination — healthcare costs vary significantly between countries. Check whether your planned activities are covered or whether an adventure sports add-on is needed. If you have pre-existing medical conditions, ask specifically about coverage and any required disclosures. For family travel, confirm the age limits for child coverage and whether elderly travellers require separate declarations. Review the claims process — specifically how to access emergency assistance abroad and what documentation is needed to file a claim after returning home."
+    },
+    "pageFAQ": {
+      "heading": "Frequently asked questions about travel insurance for UAE residents",
+      "items": [
+        {
+          "question": "Is travel insurance mandatory for UAE residents travelling abroad?",
+          "answer": "Travel insurance is not generally mandatory for UAE residents departing the UAE. However, several countries and visa categories — particularly Schengen-area visas — require proof of travel insurance as an entry condition. Even where not required, it provides financial protection that many travellers find essential."
+        },
+        {
+          "question": "Does travel insurance cover pre-existing medical conditions?",
+          "answer": "Standard travel insurance policies often exclude pre-existing conditions or impose restrictions on related claims. Some providers offer plans that include pre-existing condition cover, either as part of the standard policy or as an optional add-on, sometimes subject to a medical declaration. Always disclose any relevant health history when purchasing and read the related terms carefully."
+        },
+        {
+          "question": "What is the difference between single-trip and annual multi-trip plans?",
+          "answer": "A single-trip policy covers one specific trip from departure to return. An annual multi-trip plan covers all trips taken within a 12-month period, typically up to a maximum trip length per journey (commonly 30–45 days). Frequent travellers generally find annual plans more economical, while single-trip plans suit those who travel occasionally."
+        },
+        {
+          "question": "What happens if my flight is cancelled or significantly delayed?",
+          "answer": "Travel insurance typically covers additional accommodation and meal costs incurred during significant flight delays, subject to a minimum delay threshold stated in the policy (commonly 6–12 hours). Trip cancellation cover reimburses pre-paid non-refundable costs when the cancellation is caused by a covered reason. Cancellations caused by the airline's own operations may trigger separate airline compensation rights."
+        },
+        {
+          "question": "What should I do in a medical emergency abroad?",
+          "answer": "Contact the insurer's 24-hour emergency assistance line immediately — the number is on your policy documents. The insurer can direct you to approved medical facilities, arrange direct billing to avoid upfront payment, and coordinate medical evacuation if necessary. Keep all receipts and medical reports for any costs you pay directly, as these will be required when filing a reimbursement claim."
+        }
+      ]
+    }
   },
   "businessInsurance": {
     "badge": "Business insurance",
@@ -318,7 +441,48 @@
     ],
     "ctaHeading": "Discover business insurance providers in the UAE",
     "ctaSub": "Explore licensed providers offering business insurance solutions, and head to the provider's website directly.",
-    "ctaButton": "Explore providers"
+    "ctaButton": "Explore providers",
+    "educational": {
+      "introHeading": "What is business insurance?",
+      "introText": "Business insurance is a collection of insurance policies designed to protect commercial enterprises from financial losses caused by unexpected events: accidents, legal claims, property damage, or operational disruptions. Business needs differ fundamentally from individual needs, making an accurate understanding of available coverage types essential for any business owner or manager operating in the UAE.",
+      "mandatoryHeading": "Why do UAE business owners need insurance?",
+      "mandatoryText": "The UAE is an active business environment attracting companies across all sectors. Any unexpected disruption to company operations — whether from fire, a natural event, or a legal claim — can threaten its continuity. UAE law obliges employers to provide health insurance for employees. Professional liability insurance is required in some regulated sectors. Managing risk through appropriate insurance gives a business the resilience to recover and continue operating after an unexpected event.",
+      "coverageHeading": "Common coverage types in business insurance",
+      "coverageText": "General liability insurance protects the business from claims arising from damages to third parties or their property during commercial activity. Professional indemnity (E&O) insurance provides protection against claims related to errors or negligence in delivering professional services. Commercial property insurance covers offices, equipment, and inventory against physical damage. Business interruption insurance compensates for lost revenue when operations are halted due to a covered incident. Employee insurance covers group health insurance, personal accident coverage, and work-related insurance.",
+      "exclusionsHeading": "What may not be covered in business insurance policies?",
+      "exclusionsText": "Most business insurance policies do not cover losses resulting from intentional acts or fraud. Normal commercial losses such as declining sales or competitive pressure are not covered. Some natural disasters may be excluded or require a separate endorsement. Losses from cyber attacks require a dedicated cyber insurance policy. Exclusions vary between policies, making it essential to understand them thoroughly before signing any agreement.",
+      "whoNeedsHeading": "Who needs business insurance most?",
+      "whoNeedsText": "Businesses that deal directly with clients or provide professional services have a strong need for liability insurance. Businesses holding valuable inventory or equipment require property insurance. Any business that depends on a physical location for operations needs business interruption cover. Any employer with staff is legally required to provide health insurance within the applicable local standards and thresholds.",
+      "termsHeading": "Key terms for business owners",
+      "termsText": "General Liability: covers damages caused to third parties as a result of your business activity. Professional Indemnity: protection against claims arising from errors in delivering services. Business Interruption: compensation for lost revenue during an operational stoppage caused by a covered event. Umbrella Policy: additional coverage that sits above the limits of other policies when needed. Loss Adjuster: an expert who assesses the value of a claim on behalf of the insurance company.",
+      "reviewHeading": "What to check before selecting business insurance",
+      "reviewText": "Start by identifying the primary risks your business faces: property risks, professional liability risks, or employee-related risks. Review the value of the assets requiring protection and compare it against the proposed coverage limits. Ask about policy renewal terms and how claims are processed. Check the insurer's service level and response speed in the event of an incident. Consult a business insurance specialist who can help you determine the most appropriate coverage scope for your business size and sector."
+    },
+    "pageFAQ": {
+      "heading": "Frequently asked questions about business insurance in the UAE",
+      "items": [
+        {
+          "question": "Is business insurance mandatory in the UAE?",
+          "answer": "It depends on the type of insurance and the sector. Group health insurance for employees is legally mandatory for employers in Abu Dhabi and Dubai. Other commercial insurance types such as property and professional liability are generally not mandatory, but may be required for certain trade licences or commercial contracts in specific sectors."
+        },
+        {
+          "question": "What is the difference between general liability and professional indemnity insurance?",
+          "answer": "General liability covers physical or property damage caused to third parties during the course of your business activities — for example, a visitor being injured on your premises. Professional indemnity covers claims related to errors or negligence in professional services provided, such as legal or engineering consultancy."
+        },
+        {
+          "question": "Is employee insurance different from group health insurance?",
+          "answer": "Group health insurance is one component of a broader employee insurance package, which may also include personal accident cover, disability insurance, and group life insurance. Your company's specific needs determine what should be included, alongside applicable legal obligations."
+        },
+        {
+          "question": "Why is business interruption insurance important for startups?",
+          "answer": "For startups without significant financial reserves, even a few days of operational downtime can cause serious damage. Business interruption insurance compensates for lost revenue and fixed costs during a stoppage caused by a covered incident, giving the business the capacity to continue until operations resume."
+        },
+        {
+          "question": "How do I estimate the right level of coverage for my business?",
+          "answer": "Correct estimation starts with auditing your company's assets and assessing the probable risks in your sector. There is no one-size-fits-all standard — a consulting firm has different needs from a construction company. Consulting a business insurance specialist will help you identify the necessary policy types and appropriate coverage limits for your business size."
+        }
+      ]
+    }
   },
   "about": {
     "heroTitle": "About CompareAE",

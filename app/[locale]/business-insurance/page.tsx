@@ -47,6 +47,16 @@ export default function BusinessInsurancePage() {
     description: t(`type${n}Desc`),
     features: t.raw(`type${n}Features`) as string[],
   }))
+  const educSections = [
+    { heading: t('educational.introHeading'), text: t('educational.introText') },
+    { heading: t('educational.mandatoryHeading'), text: t('educational.mandatoryText') },
+    { heading: t('educational.coverageHeading'), text: t('educational.coverageText') },
+    { heading: t('educational.exclusionsHeading'), text: t('educational.exclusionsText') },
+    { heading: t('educational.whoNeedsHeading'), text: t('educational.whoNeedsText') },
+    { heading: t('educational.termsHeading'), text: t('educational.termsText') },
+    { heading: t('educational.reviewHeading'), text: t('educational.reviewText') },
+  ]
+  const pageFAQ = t.raw('pageFAQ') as { heading: string; items: { question: string; answer: string }[] }
 
   return (
     <div className="min-h-screen">
@@ -172,6 +182,53 @@ export default function BusinessInsurancePage() {
             </Button>
           </div>
         </section>
+
+        {/* Educational content — unique per page, improves indexability */}
+        <section className="py-16 md:py-24 bg-background">
+          <div className="container mx-auto px-4">
+            <div className="max-w-3xl mx-auto space-y-10">
+              {educSections.map((sec) => (
+                <div key={sec.heading}>
+                  <h2 className="text-xl md:text-2xl font-bold text-foreground mb-3">{sec.heading}</h2>
+                  <p className="text-muted-foreground leading-relaxed">{sec.text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Page-specific FAQ — all answers server-rendered for full indexing */}
+        <section className="py-16 md:py-24 bg-muted/50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-3xl mx-auto">
+              <h2 className="text-2xl md:text-3xl font-bold text-foreground text-center mb-10">
+                {pageFAQ.heading}
+              </h2>
+              <div className="space-y-6">
+                {pageFAQ.items.map((item) => (
+                  <div key={item.question} className="bg-card border border-border rounded-xl p-6">
+                    <h3 className="font-semibold text-card-foreground mb-3">{item.question}</h3>
+                    <p className="text-muted-foreground leading-relaxed">{item.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: pageFAQ.items.map((item) => ({
+                '@type': 'Question',
+                name: item.question,
+                acceptedAnswer: { '@type': 'Answer', text: item.answer },
+              })),
+            }),
+          }}
+        />
 
         <HowItWorks />
         <FAQSection />
